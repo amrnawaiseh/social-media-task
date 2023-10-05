@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body.hidden {
+  display: none;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 375px;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 104px;
+}
+
+.log-in-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-in p {
+  font-family: "Comfortaa";
+  font-size: 36px;
+  font-weight: 400;
+  height: 40px;
+  margin-bottom: 32px;
+  margin-top: 0;
+  text-align: left;
+  white-space: nowrap;
+  width: 115px;
+}
+
+.log-in-data input {
+  border: 2px solid;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  height: 50px;
+  margin-bottom: 16px;
+  padding: 17px;
+}
+
+.log-in-btn {
+  background-color: #000;
+  border-radius: 6px;
+  border: 2px solid;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 900;
+  height: 50px;
+  text-align: center;
+}
+
+.log-in-msg {
+  font-family: "Comfortaa";
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: center;
+  color: red;
+}
